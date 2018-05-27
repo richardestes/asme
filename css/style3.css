@@ -20,6 +20,8 @@ nav.black{
     background: rgba(0,0,0,0.8);
     height: 100px;
     padding: 10px 100px;
+    z-index: 4;
+
 }
 
 nav .logo{
@@ -102,8 +104,10 @@ nav ul li a.item:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
-    color: black;
+    color: white;
     font-weight: bold;
+    z-index: 1;
+
 }
 
 
